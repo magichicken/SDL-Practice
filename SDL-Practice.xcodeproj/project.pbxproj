@@ -7,24 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04FB72A81C2CFFFC00F2B2C4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04FB72A71C2CFFFC00F2B2C4 /* main.cpp */; };
+		04FB72B31C2D007100F2B2C4 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FB72B11C2D007100F2B2C4 /* SDL2_image.framework */; };
+		04FB72B41C2D007100F2B2C4 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FB72B21C2D007100F2B2C4 /* SDL2.framework */; };
+		04FB72B61C2D01DE00F2B2C4 /* 06_extensions in Sources */ = {isa = PBXBuildFile; fileRef = 04FB72B51C2D01C600F2B2C4 /* 06_extensions */; };
+		04FB72B81C2D033400F2B2C4 /* loaded.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04FB72B71C2D033400F2B2C4 /* loaded.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		04FB72A21C2CFFFC00F2B2C4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				04FB72B81C2D033400F2B2C4 /* loaded.png in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		04FB72A41C2CFFFC00F2B2C4 /* SDL-Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SDL-Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04FB72A71C2CFFFC00F2B2C4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		04FB72B11C2D007100F2B2C4 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		04FB72B21C2D007100F2B2C4 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		04FB72B51C2D01C600F2B2C4 /* 06_extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 06_extensions; sourceTree = "<group>"; };
+		04FB72B71C2D033400F2B2C4 /* loaded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loaded.png; path = "SDL-Practice/06_extensions/loaded.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FB72B31C2D007100F2B2C4 /* SDL2_image.framework in Frameworks */,
+				04FB72B41C2D007100F2B2C4 /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +50,9 @@
 		04FB729B1C2CFFFB00F2B2C4 = {
 			isa = PBXGroup;
 			children = (
+				04FB72B71C2D033400F2B2C4 /* loaded.png */,
+				04FB72B11C2D007100F2B2C4 /* SDL2_image.framework */,
+				04FB72B21C2D007100F2B2C4 /* SDL2.framework */,
 				04FB72A61C2CFFFC00F2B2C4 /* SDL-Practice */,
 				04FB72A51C2CFFFC00F2B2C4 /* Products */,
 			);
@@ -57,7 +69,7 @@
 		04FB72A61C2CFFFC00F2B2C4 /* SDL-Practice */ = {
 			isa = PBXGroup;
 			children = (
-				04FB72A71C2CFFFC00F2B2C4 /* main.cpp */,
+				04FB72B51C2D01C600F2B2C4 /* 06_extensions */,
 			);
 			path = "SDL-Practice";
 			sourceTree = "<group>";
@@ -118,7 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FB72A81C2CFFFC00F2B2C4 /* main.cpp in Sources */,
+				04FB72B61C2D01DE00F2B2C4 /* 06_extensions in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +219,10 @@
 		04FB72AC1C2CFFFC00F2B2C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -214,6 +230,10 @@
 		04FB72AD1C2CFFFC00F2B2C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
