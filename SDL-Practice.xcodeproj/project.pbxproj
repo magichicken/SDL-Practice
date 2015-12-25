@@ -10,7 +10,6 @@
 		04FB72B31C2D007100F2B2C4 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FB72B11C2D007100F2B2C4 /* SDL2_image.framework */; };
 		04FB72B41C2D007100F2B2C4 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FB72B21C2D007100F2B2C4 /* SDL2.framework */; };
 		04FB72B61C2D01DE00F2B2C4 /* 06_extensions in Sources */ = {isa = PBXBuildFile; fileRef = 04FB72B51C2D01C600F2B2C4 /* 06_extensions */; };
-		04FB72B81C2D033400F2B2C4 /* loaded.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04FB72B71C2D033400F2B2C4 /* loaded.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,7 +19,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				04FB72B81C2D033400F2B2C4 /* loaded.png in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -31,7 +29,6 @@
 		04FB72B11C2D007100F2B2C4 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
 		04FB72B21C2D007100F2B2C4 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
 		04FB72B51C2D01C600F2B2C4 /* 06_extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 06_extensions; sourceTree = "<group>"; };
-		04FB72B71C2D033400F2B2C4 /* loaded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loaded.png; path = "SDL-Practice/06_extensions/loaded.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +47,6 @@
 		04FB729B1C2CFFFB00F2B2C4 = {
 			isa = PBXGroup;
 			children = (
-				04FB72B71C2D033400F2B2C4 /* loaded.png */,
 				04FB72B11C2D007100F2B2C4 /* SDL2_image.framework */,
 				04FB72B21C2D007100F2B2C4 /* SDL2.framework */,
 				04FB72A61C2CFFFC00F2B2C4 /* SDL-Practice */,
