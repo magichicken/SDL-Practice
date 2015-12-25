@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04FB72B31C2D007100F2B2C4 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FB72B11C2D007100F2B2C4 /* SDL2_image.framework */; };
-		04FB72B41C2D007100F2B2C4 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FB72B21C2D007100F2B2C4 /* SDL2.framework */; };
-		04FB72B61C2D01DE00F2B2C4 /* 06_extensions in Sources */ = {isa = PBXBuildFile; fileRef = 04FB72B51C2D01C600F2B2C4 /* 06_extensions */; };
+		04FB72B41C2D007100F2B2C4 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FB72B21C2D007100F2B2C4 /* SDL2.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		04FB72A41C2CFFFC00F2B2C4 /* SDL-Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SDL-Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04FB72B11C2D007100F2B2C4 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		04FB72A41C2CFFFC00F2B2C4 /* SDL-Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "SDL-Practice"; path = "/Users/Default/Projects/SDL-Practice/build/Debug/SDL-Practice"; sourceTree = "<absolute>"; };
 		04FB72B21C2D007100F2B2C4 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
-		04FB72B51C2D01C600F2B2C4 /* 06_extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 06_extensions; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +32,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FB72B31C2D007100F2B2C4 /* SDL2_image.framework in Frameworks */,
 				04FB72B41C2D007100F2B2C4 /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,25 +42,14 @@
 		04FB729B1C2CFFFB00F2B2C4 = {
 			isa = PBXGroup;
 			children = (
-				04FB72B11C2D007100F2B2C4 /* SDL2_image.framework */,
 				04FB72B21C2D007100F2B2C4 /* SDL2.framework */,
 				04FB72A61C2CFFFC00F2B2C4 /* SDL-Practice */,
-				04FB72A51C2CFFFC00F2B2C4 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		04FB72A51C2CFFFC00F2B2C4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				04FB72A41C2CFFFC00F2B2C4 /* SDL-Practice */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		04FB72A61C2CFFFC00F2B2C4 /* SDL-Practice */ = {
 			isa = PBXGroup;
 			children = (
-				04FB72B51C2D01C600F2B2C4 /* 06_extensions */,
 			);
 			path = "SDL-Practice";
 			sourceTree = "<group>";
@@ -112,7 +96,7 @@
 				en,
 			);
 			mainGroup = 04FB729B1C2CFFFB00F2B2C4;
-			productRefGroup = 04FB72A51C2CFFFC00F2B2C4 /* Products */;
+			productRefGroup = 04FB729B1C2CFFFB00F2B2C4;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -126,7 +110,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FB72B61C2D01DE00F2B2C4 /* 06_extensions in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +236,7 @@
 				04FB72AD1C2CFFFC00F2B2C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
